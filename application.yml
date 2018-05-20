@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: 
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microcloudservice-config-gwolf-dev
+    
+---
+spring:
+  profiles: test
+  application:
+    name: microcloudservice-config-gwolf-test
